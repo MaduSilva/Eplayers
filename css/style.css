@@ -151,12 +151,32 @@ body{
             margin-bottom: 35px;
         }
 
-        .sobre{
+        .sobre_fundo{
             background-image: url("../Img/Teams/T6.jpg");
             background-position: center;
             background-size: cover;
             background-attachment: fixed;
             width: 100%;
-            min-height: 200px;
+            min-height: 500px;
             clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .sobre{
+            position: relative;
+            display: flex;
+        }
+        .sobre img{
+            position: absolute;
+            z-index: 99;
+            top: -20px;
+            width: 100%;
+            max-width: 40%;
+        }
+
+        .texto_sobre{
+            width: 40%;
+            margin-right: 100px;
         }
