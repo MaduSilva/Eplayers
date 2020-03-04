@@ -1,195 +1,267 @@
-
 /* variáveis de cores*/
-:root{
+
+:root {
     --background: #1e1c21;
     --pink: #FC1E8B;
     --purple: #7278C3;
     --blue: #00A8DC;
-
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: var(--background);
-    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
-    a{
-        text-decoration: none;
-        color: white;
-    }
 
-    .gradient{
-        background: rgba(252,30,137,1);
-        background: -moz-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,30,137,1)), color-stop(100%, rgba(114,119,195,1)));
-        background: -webkit-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
-        background: -o-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
-        background: -ms-linear-gradient(left, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
-        background: linear-gradient(to right, rgba(252,30,137,1) 0%, rgba(114,119,195,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1e89', endColorstr='#7277c3', GradientType=1 );
-    }
+a {
+    text-decoration: none;
+    color: white;
+}
 
-    .container{
-        width: 80%;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+.gradient {
+    background: rgba(252, 30, 137, 1);
+    background: -moz-linear-gradient(left, rgba(252, 30, 137, 1) 0%, rgba(114, 119, 195, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252, 30, 137, 1)), color-stop(100%, rgba(114, 119, 195, 1)));
+    background: -webkit-linear-gradient(left, rgba(252, 30, 137, 1) 0%, rgba(114, 119, 195, 1) 100%);
+    background: -o-linear-gradient(left, rgba(252, 30, 137, 1) 0%, rgba(114, 119, 195, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(252, 30, 137, 1) 0%, rgba(114, 119, 195, 1) 100%);
+    background: linear-gradient(to right, rgba(252, 30, 137, 1) 0%, rgba(114, 119, 195, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1e89', endColorstr='#7277c3', GradientType=1);
+}
 
-    header .container{
-        display: flex;
-        justify-content: space-between;
-        padding: 20px 0;
-    }
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    header ul{
-        display: flex;
-        list-style-type: none;
-        justify-content: space-between;
-        flex-flow: wrap;
-    }
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
 
-    header nav{
-        width: 60%;
-        
-    }
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
 
-    header a{
-        text-transform: uppercase;
-    }
+header nav {
+    width: 60%;
+}
 
-    header img{
-        margin-right: 100px;
-    }
+header a {
+    text-transform: uppercase;
+}
 
-    .partidas{
-        text-align: center;
-        width: 100%;
-        min-height: 100px;
-        background: rgba(66,44,90,1);
-        background: -moz-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,44,90,1)), color-stop(100%, rgba(16,15,17,1)));
-        background: -webkit-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-        background: -o-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-        background: -ms-linear-gradient(top, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-        background: linear-gradient(to bottom, rgba(66,44,90,1) 0%, rgba(16,15,17,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422c5a', endColorstr='#100f11', GradientType=0 );
-    }	
+header img {
+    margin-right: 100px;
+}
 
-    .partidas .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        flex-flow: wrap;
-    }
+.partidas {
+    text-align: center;
+    width: 100%;
+    min-height: 100px;
+    background: rgba(66, 44, 90, 1);
+    background: -moz-linear-gradient(top, rgba(66, 44, 90, 1) 0%, rgba(16, 15, 17, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66, 44, 90, 1)), color-stop(100%, rgba(16, 15, 17, 1)));
+    background: -webkit-linear-gradient(top, rgba(66, 44, 90, 1) 0%, rgba(16, 15, 17, 1) 100%);
+    background: -o-linear-gradient(top, rgba(66, 44, 90, 1) 0%, rgba(16, 15, 17, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(66, 44, 90, 1) 0%, rgba(16, 15, 17, 1) 100%);
+    background: linear-gradient(to bottom, rgba(66, 44, 90, 1) 0%, rgba(16, 15, 17, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422c5a', endColorstr='#100f11', GradientType=0);
+}
 
-    .partida{
-        padding: 0px 0px 10px 0px;
-    }
+.partidas .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: wrap;
+}
 
-    .partida img{
-        width: 40px;
-        padding: 0 8px;
-    }
+.partida {
+    padding: 0px 0px 10px 0px;
+}
 
-    .partida h2{
-        font-size: 16px;
-        text-align: start;
-        padding: 10px 0px;
-    }
+.partida img {
+    width: 40px;
+    padding: 0 8px;
+}
 
-    .partida div{
-        display: flex;
-        align-items: center;
-        padding: 10px 0px;
-    }
+.partida h2 {
+    font-size: 16px;
+    text-align: start;
+    padding: 10px 0px;
+}
 
-    .red{
-        color: red
-    }
+.partida div {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
 
-    .banner{
-        width: 100%;
-        height: 400px;
-        background-image: url("../img/meta_mundo.jpg");
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.red {
+    color: red
+}
 
-        .ligas{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 30px 0;
-        }
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/meta_mundo.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .ligas img{
-            height: 130px;
-        }
+.ligas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
 
-        .ligas h4{
-            font-size: 45px;
-            text-transform: uppercase;
-            margin-left: 4px;
-        }
+.ligas img {
+    height: 130px;
+}
 
-        .ligas h3{
-            font-size: 90px;
-            text-transform: uppercase;
-            line-height: 40px;
-        }
+.ligas h4 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
 
-    
-        .ligas div{
-            margin-bottom: 35px;
-        }
+.ligas h3 {
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
 
-        .sobre_fundo{
-            background-image: url("../Img/Teams/T6.jpg");
-            background-position: center;
-            background-size: cover;
-            background-attachment: fixed;
-            width: 100%;
-            min-height: 500px;
-            clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-           
-        }
+.ligas div {
+    margin-bottom: 35px;
+}
 
-        .sobre_fundo_filtro{
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            background-color:rgba(252,30,137,0.5)
-        
-            
+.sobre_fundo {
+    background-image: url("../Img/Teams/T6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 600px;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
 
-        }
+.sobre_fundo_filtro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 30, 137, 0.5)
+}
 
-        .sobre{
-            position: relative;
-            display: flex;
-        }
-        .sobre img{
-            position: absolute;
-            z-index: 99;
-            top: -20px;
-            left: 100px;
-            width: 100%;
-            max-width: 35%;
-        }
+.sobre {
+    position: relative;
+    display: flex;
+}
 
-        .texto_sobre{
-            width: 50%;
-            margin-right: 100px;
-            text-align: right;
-           text-shadow: 0px 3px 3px black;
-        }
+.sobre img {
+    position: absolute;
+    z-index: 99;
+    top: -20px;
+    left: 100px;
+    width: 100%;
+    max-width: 30%;
+}
+
+.texto_sobre {
+    width: 50%;
+    margin-right: 100px;
+    text-align: right;
+    text-shadow: 0px 3px 3px black;
+}
+
+.texto_sobre h2 {
+    margin-bottom: 2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.content section {
+    width: 70%;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 2em;
+    box-shadow: 0px 3px 10px #000000;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(30, 28, 33, 1) 30%, rgba(30, 28, 33, 1) 100%);
+}
+
+.card img {
+    width: 150px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card div {
+    padding: 2em;
+}
+
+.card div:hover {
+    color: var(--background);
+    background-color: var(--pink);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.content h3 {
+    text-transform: uppercase;
+    padding: 1em 0;
+    font-size: 1.8em;
+}
+
+.content article {
+    width: 25%;
+}
+
+.resultados_box {
+    padding: 2em;
+    box-shadow: 0px 3px 10px #000000;
+}
+
+.resultados div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resultado {
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.resultado img {
+    width: 30px;
+}
+
+.resultado p {
+    font-size: 1.7em;
+    margin: 0.1em 0;
+}
