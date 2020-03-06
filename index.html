@@ -13,10 +13,15 @@
 <body>
     <header>
         <div class="container">
-            <a href="index.html" title="Acessar a página inicial do site">
-                <img src="img/Logo.svg" alt="Logotipo do site E-players">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html" title="Acessar a página inicial do site">
+                    <img src="img/Logo.svg" alt="Logotipo do site E-players">
+                </a>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html" title="Acessar página inicial">Início</a></li>
                     <li><a href="#Sobre" title="Acessar sessão sobre o Projeto">Sobre</a></li>
@@ -338,6 +343,16 @@
         </div> <!-- Fim Container-->
         <p> Copyright © - Todos os direitos reservados - Escola SENAI de Informática </p>
     </footer>
+    <script>
+        function botaoMenu(){
+            var m = document.getElementById("menu")
+            if (m.style.display == "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 
