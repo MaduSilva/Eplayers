@@ -93,7 +93,7 @@ header img {
 }
 
 .partida {
-    padding: 0px 0px 10px 0px;
+    padding: 0px 20px 10px 0px;
 }
 
 .partida img {
@@ -153,6 +153,12 @@ header img {
 
 .ligas div {
     margin-bottom: 35px;
+}
+
+.ligas_imagens {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .sobre_fundo {
@@ -350,7 +356,7 @@ footer p {
     color: #6f6f6f;
 }
 
-header .fa-bars{
+header .fa-bars {
     display: none;
 }
 
@@ -476,73 +482,125 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
         margin-top: 3em;
         margin-left: 0.5em;
     }
-
 }
 
 /* Fim Media Query 800px*/
 
 /*Início Media 460px*/
 
-@media(max-width: 460px){
+@media(max-width: 460px) {
+    header .fa-bars {
+        color: var(--purple);
+        font-size: 3em;
+        display: block;
+    }
+    header .container div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header .container div a {
+        margin-left: 1em;
+    }
+    #menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: var(--purple);
+        left: 0;
+        display: none;
+    }
+    #menu ul {
+        flex-direction: column;
+        height: 300px;
+        margin-left: 2em;
+    }
+    #menu a {
+        display: block;
+        padding: 0.5em 0;
+        background-color: var(--purple);
+    }
+    .partidas .container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    .em_andamento {
+        width: 80%;
+      align-items: center;
+      
+    }
+    .proximas_partidas {
+        width: 100%;
+        flex-direction: row;
+        align-self: flex-start;
+    }
+    .banner {
+        height: 250px;
+    }
+    .banner img {
+        width: 100px;
+    }
+    .ligas {
+        flex-direction: column;
+    }
+    .ligas .div:nth-child(1) {
+        display: flex;
+    }
+    .ligas h4, .ligas h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .sobre img{
+        display: none;
+    }
+    .texto_sobre{
+        width: 90%;
+    }
 
-header .fa-bars{
-    color:var(--purple);
-    font-size: 3em;
-    display: block;
-}
+    .content{
+        flex-direction: column;
+        width: 100%;
+    }
 
-header .container div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    .content article{
+        width: 100%;
+    }   
 
-}
+    .card{
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
 
-header .container div a{
-    margin-left: 1em;
-}
+    .card img{
+        width: 100%;
+        margin-left: 0px;
+    }
 
-#menu{
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background-color: var(--purple);
-    left: 0;
-    display: none;
-}
+    .card div{
+        padding: 1em;
+    }
 
-#menu ul{
-    flex-direction: column;
-    height: 300px;
-    margin-left: 2em;
-}
+    .content section{
+        width: 90%;
+        margin: auto;
+    }
 
-#menu a{
-    display: block;
-    padding: 0.5em 0;
+    footer .container{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1em;
+    }
 
-    background-color: var(--purple);
-}
 
-.partidas .container{
-    width: 90%;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.em_andamento{
-    width: 80%;
-    align-self: flex-start;
-    margin-left: -50px;
-}
 
-.proximas_partidas{
-    width: 100%;
-    flex-direction: row;
-    align-self: flex-start;
- 
-}
+
+
+
+
 
 
 
