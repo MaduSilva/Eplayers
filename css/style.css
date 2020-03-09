@@ -499,12 +499,13 @@ header .container div{
 }
 
 header .container div a{
-    margin-left: 7em;
+    margin-left: 1em;
 }
 
 #menu{
     position: absolute;
     top: 80px;
+    left: 0;
     width: 100%;
     background-color: var(--purple);
     left: 0;
@@ -513,19 +514,32 @@ header .container div a{
 
 #menu ul{
     flex-direction: column;
-    height: 350px;
+    height: 300px;
     margin-left: 1em;
 }
 
 #menu a{
     display: block;
     padding: 0.5em 0;
-   
+
     background-color: var(--purple);
 }
 
+.partidas .container{
+    width: 97%;
+    flex-direction: column;
+    align-items: center;
+}
 
+.em_andamento{
+    width: 45%;
+}
 
+.proximas_partidas{
+    width: 90%;
+    flex-direction: column;
+    margin-left: -270px;
+}
 
 
 
