@@ -515,7 +515,7 @@ header .container div a{
 #menu ul{
     flex-direction: column;
     height: 300px;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 #menu a{
@@ -526,19 +526,22 @@ header .container div a{
 }
 
 .partidas .container{
-    width: 97%;
+    width: 90%;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .em_andamento{
-    width: 45%;
+    width: 80%;
+    align-self: flex-start;
+    margin-left: -50px;
 }
 
 .proximas_partidas{
-    width: 90%;
-    flex-direction: column;
-    margin-left: -270px;
+    width: 100%;
+    flex-direction: row;
+    align-self: flex-start;
+ 
 }
 
 
